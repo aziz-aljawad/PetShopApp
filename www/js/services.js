@@ -2,7 +2,7 @@ angular.module('app.services', [])
 
 .factory('bakendlessAPI', function($http) {
 
-var mainUrl = "https://api.backendless.com/BA2BC4C3-5600-B2AA-FFA0-5C7CBDC21900/7DC92FC1-C9AC-8941-FF45-038B00E3FF00/";
+var mainUrl = "https://api.backendless.com/APP KEY/";
 var header = {'Content-Type' : 'application/json'};
 return {
   login: function(data) {
