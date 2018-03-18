@@ -1,0 +1,11 @@
+<ion-view title="{{currentSP}}">
+  <ion-content padding="true" class="has-header">
+    <ion-list>
+      <ion-item class="item-thumbnail-left" ng-repeat=" x in rssNews | filter: currentSP" ng-click="goToSection(x)">
+        <img ng-src="img/{{currentSP}}.png">
+
+		      <h2>{{x.title}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

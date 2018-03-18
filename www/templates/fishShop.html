@@ -1,0 +1,21 @@
+<ion-view title="Fish Shop" id="page17">
+  <ion-content padding="true" class="has-header">
+    <div>
+      <img src="img/ZTNL4i0xTfay2WEZR1nY_Littlest_Pet_Shop_2012_TV_series_logo.png" style="display: block; width: 50%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <h3 id="fishShop-heading24" style="color:#000000;">Pet shop mobile application</h3>
+    <h1 id="fishShop-heading25" style="color:#000000;"></h1>
+    <div id="fishShop-markdown14" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Please select your option</p>
+    </div>
+    <ion-list id="fishShop-list8">
+      <ion-item class="item-thumbnail-left item-icon-right item-text-wrap" ng-repeat="item in myFishes" href="#/page1/fishes/{{item.id}}">
+      <img ng-src="img/{{item.img}}.jpg" style="border-radius: 15px;   border: 2px solid #999999;">
+      <h2>Name: {{item.Name}}</h2>
+      <p>Type: {{item.Type}}</p>
+      <p>{{item.desc.substring(0, 100) + "..."}}</p>
+
+    </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

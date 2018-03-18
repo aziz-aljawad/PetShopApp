@@ -1,0 +1,24 @@
+<ion-view title="{{oneFish.Name}}">
+<ion-content class="padding">
+  <div class="card">
+
+<ion-item class="item-image">
+<img ng-src="../img/{{oneFish.img}}.jpg">
+</ion-item >
+<ion-item class=" item-text-wrap">
+
+<h2 >{{oneFish.Name}}</h2>
+<p>Type: {{oneFish.Type}}</p>
+<p>color: {{oneFish.color}}</p>
+<p>Price: {{oneFish.Price}} BD</p>
+</ion-item>
+
+
+<ion-item class="item-text-wrap" >
+<p>{{oneFish.desc}}</p>
+</ion-item >
+
+</div>
+<button class="button button-block button-positive" ng-click="goToCart()">Add to cart</button>
+</ion-content>
+</ion-view>

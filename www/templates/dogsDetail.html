@@ -1,0 +1,24 @@
+<ion-view>
+<ion-content class="padding">
+  <div class="card">
+
+<ion-item class="item-image">
+<img ng-src="../img/{{oneDog.img}}.jpg">
+</ion-item >
+<ion-item class=" item-text-wrap">
+
+<h2 >{{oneDog.Name}}</h2>
+<p>Age: {{oneDog.Age}}</p>
+<p>Gender: {{oneDog.Gender}}</p>
+<p>Price: {{oneDog.Price}}</p>
+</ion-item>
+
+
+<ion-item class="item-text-wrap" >
+<p>{{oneDog.desc}}</p>
+</ion-item >
+
+</div>
+<button class="button button-block button-positive" ng-click="goToCart()">Add to cart</button>
+</ion-content>
+</ion-view>
