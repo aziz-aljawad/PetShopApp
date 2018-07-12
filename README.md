@@ -8,3 +8,9 @@ Content:
 - cart tab(not functional)
 - News tab (RSS Feed)
 - Animal(fish ,cat,dog,rabbit) Master detail view
+
+# Login Details
+
+To enter the application Enter the following Details:
+Username:a@a.com
+Password: 1234
